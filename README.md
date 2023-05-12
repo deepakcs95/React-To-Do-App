@@ -6,7 +6,7 @@ This is a simple Todo app built with React, allowing users to create, update and
 
 ## Demo
 
-![Screenshot](./assets/ScreenShot.jpg)
+![Screenshot](./my-test-app/src/assets/ScreenShot.jpg)
 
 
 ## Deployment
