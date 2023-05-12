@@ -1,6 +1,5 @@
 
 # React Todo App
-![Logo](https://upload.wikimedia.org/wikipedia/commons/6/67/Microsoft_To-Do_icon.png)
 
 
 
