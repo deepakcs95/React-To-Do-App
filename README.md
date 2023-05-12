@@ -6,7 +6,7 @@ This is a simple Todo app built with React, allowing users to create, update and
 
 ## Deployed Page
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://gilded-melomakarona-432a0c.netlify.app)
+[![portfolio](https://gilded-melomakarona-432a0c.netlify.app)
 
 ## Demo
 
