@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* icons  */
+
+.material-symbols-outlined {
+  color: rgba(0, 0, 0, 0.54);
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  cursor: pointer;
+}
+
+.search {
+  color: gray;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    305deg,
+    hsl(240deg 100% 20%) 1%,
+    hsl(329deg 100% 36%) 51%,
+    hsl(17deg 100% 59%) 49%,
+    hsl(55deg 100% 50%) 99%
+  );
+
+  min-height: 100vh;
+}
+
+.card {
+  width: 100%;
+  gap: 10px;
+  border-radius: 8px;
+  background: linear-gradient(
+    to top right,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  backdrop-filter: blur(2rem);
+  overflow: hidden;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+  font-size: 2.2em;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card input[type="text"] {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: solid 1px gray;
+  padding: 6px 10px;
+  border-radius: 2px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
+.card input[type="text"]:focus {
+  outline: 2px solid hsl(17deg 100% 59%);
+}
+
+.card-body {
+  padding: 1rem 2rem;
+}
+
+input[type="checkbox"] {
+  color: rgb(199, 42, 42);
+}
+
+.list {
+  margin: 10px 0;
+}
+
+.list input {
+  margin-right: 6px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgba(210, 233, 177, 0.3);
+  padding: 1rem 1.4rem;
+}
+
+.footer-left {
+  display: flex;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  border: 1px solid;
+}
+
+@media screen and (min-width: 600px) {
+  :root {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+  .card {
+    width: 600px;
+  }
+}
