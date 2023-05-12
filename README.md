@@ -1,12 +1,14 @@
 
 # React Todo App
+![Logo](https://upload.wikimedia.org/wikipedia/commons/6/67/Microsoft_To-Do_icon.png)
+
 
 
 This is a simple Todo app built with React, allowing users to create, update and delete tasks.
 
 ## Deployed Page
 
-[![portfolio](https://gilded-melomakarona-432a0c.netlify.app)
+[![Live Link]( https://img.shields.io/npm/v/npm.svg?logo=nodedotjs)](https://gilded-melomakarona-432a0c.netlify.app)(https://gilded-melomakarona-432a0c.netlify.app)
 
 ## Demo
 
